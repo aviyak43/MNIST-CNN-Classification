@@ -34,9 +34,9 @@ An optimized Convolutional Neural Network incorporating Batch Normalization for 
 Conv2D (10 5x5 filters) ➔ BatchNorm2D ➔ Max Pooling (2x2) ➔ ReLU ➔ Conv2D (20 5x5 filters) ➔ BatchNorm2D ➔ Max Pooling (2x2) ➔ ReLU ➔ Conv2D (20 1x1 filters) ➔ BatchNorm2D ➔ Fully Connected (50 units) ➔ BatchNorm1D ➔ ReLU ➔ Output (10 classes, Log-Softmax)
 
 ## Performance & Results
-* **MLP Validation Accuracy:** 88.25%
-* **CNN Validation Accuracy:** 95.9%
-* **Improved CNN Validation Accuracy:** 98.9%
+* **MLP Validation Accuracy:** 89.09%
+* **CNN Validation Accuracy:** 94.90%
+* **Improved CNN Validation Accuracy:** 98.5%
 
 ## Conclusion
 The CNN architecture demonstrated superior performance and faster convergence due to its ability to capture spatial hierarchies and local pixel dependencies within the image data, which the flattened MLP approach discards.
