@@ -1,17 +1,13 @@
-# MNIST-MLP-CNN-Classification
-
-An image classification project that compares **Multilayer Perceptron (MLP)** and **Convolutional Neural Network (CNN)** approaches on the **MNIST handwritten digits dataset**, using **NumPy** and **PyTorch**
+# MNIST Classification with MLP and CNN
+An image classification project comparing **Multilayer Perceptron (MLP)** and **Convolutional Neural Network (CNN)** approaches on the **MNIST handwritten digits dataset**, using **PyTorch**.
 
 ## Project Overview
+In this project, I implemented **a multilayer perceptron (MLP) from scratch** using NumPy and then **built and optimized a convolutional neural network (CNN) in PyTorch** to classify handwritten digits.
 
-The project walks through a progression of models for classifying handwritten digits:
+The project demonstrates how different neural network architectures influence classification performance, while also covering model training with loss functions and optimizers, as well as defining neural network architectures in PyTorch.
 
-- **MLP** for fully connected classification
-- **CNN** for image-based feature extraction
-- An improved CNN architecture with stronger validation performance
 
-The notebook demonstrates how different neural network architectures affect classification quality on MNIST.
-In addition, it demonstrates training models with loss functions and optimizers, and defining neural network architectures with PyTorch.
+This project was completed as part of the **Machine Learning and Neural Networks** course in the **M.Sc. in Neuroscience & Data Science** program at **Bar-Ilan University**.
 
 ## Dataset
 
